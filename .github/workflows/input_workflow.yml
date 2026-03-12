@@ -48,4 +48,4 @@ jobs:
       - name: Deploy Application
         run: |
           echo "Deploying version ${{ github.event.inputs.version }}"
-          echo "Deploying to which ${{ github.event.inputs.environment }} environment"
+          echo "Deploying to ${{ github.event.inputs.environment }} environment"
